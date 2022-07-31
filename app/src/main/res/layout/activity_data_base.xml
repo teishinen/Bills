@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataBaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_database_create"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="创建数据库"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:backgroundTint="@color/grey"/>
+
+        <Button
+            android:id="@+id/btn_database_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除数据库"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:backgroundTint="@color/grey"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+</LinearLayout>
